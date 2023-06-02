@@ -1,0 +1,105 @@
+main {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #D6F151;
+    min-height: 700px;
+}
+
+.main_serach{
+    position: relative;
+    width: 90%;
+  }
+  
+input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+input[type=text]:hover {
+    background : #ccffcc;
+}
+
+.serch_img {
+    position : absolute;
+    width: 17px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+}
+
+.food_truck_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 600px;
+    height: 600px;
+    background-color: #ccffcc;
+}
+
+.div_header{
+    font-family: "Hanna";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: auto;
+    width: 500px;
+    height: 70px;
+}
+
+.header_more{
+    font-family: "Hanna";
+    margin: auto;
+    font-size: large;
+    width: 100px;
+    height: 70px;
+}
+
+.food_truck{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.main_festival_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 600px;
+    height: 600px;
+    background-color: #ccffcc;
+}
+
+.festival{
+    font-size: 20px;
+    width: 400px;
+    height: 500px;
+    background: #D6F151;
+}
+
+.festival li:first-child{
+    list-style-type: none;
+}
+
+.festival_ li:first-child{
+    list-style-type: none;
+    text-align: center;
+}
+
+.festival_date{
+    font-size: 20px;
+    width: 150px;
+    height: 500px;
+    background: #D6F151;
+}
+
+.no_dot {
+    list-style-type: none;
+  }

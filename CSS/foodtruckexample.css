@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #D6F151;
+    min-height: 700px;
+}
+
+.pic_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+}
+
+.info_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+table {
+    text-align: center;
+    min-width: 300px;
+    border : 1px solid blue;
+}
+
+td, th {
+    border : 1px dotted green;
+}
+
+th {
+    background : #ccffcc;
+    height : 30px;
+    width : auto;
+}
+
+tbody tr:nth-child(even) { /* 짝수 <tr>에 적용*/
+    background : #ccffcc;
+}
+
+tbody tr:hover {
+    background : pink;
+}

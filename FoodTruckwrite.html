@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang ='ko'>
+    <head>
+        <meta charset="UTF-8">
+        <link href="./CSS/style.css" rel="stylesheet">
+        <link href="./CSS/foodtruckwrite.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>푸드 포인트!</title>
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="./login.html" class="link_img"> <img src="./img/login.svg" alt="로고" width = 40px> </a>
+                <a href="./mypage.html" class="link_img"> <img src="./img/mypage.png" alt="로고" width = 40px> </a>
+            </div>
+        <img src="./img/logo.png" alt="로고" width = 150px>
+        <nav>
+            <div class="nav_items">
+                <ul>
+                <li><a href="./">HOME</a></li>
+                <li>|</li>
+                <li><a href="./about.html">About</a></li>
+                <li>|</li>
+                <li><a href="./FoodTruckPR.html">Food Truck</a></li>
+                <li>|</li>
+                <li><a href="./FestivalPR.html">2023 Festival</a></li>
+                <li>|</li>
+                <li><a href="./Community.html">Community</a></li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+
+        <main>
+            <div class="pic_container">
+                <div style="width: 350px; height: 250px; background-color: azure; text-align: center;">
+                    이미지 등록
+                </div>
+            </div>
+            <div class="info_container">
+                <table>
+                    <caption>주요 정보</caption>
+                    <tbody>
+                        <tr>
+                            <td>트럭이름</td> <td><input type="text"  placeholder="name" class="form_input"/></td>
+                        </tr>
+                        <tr>
+                            <td>주 메뉴</td> <td><input type="text" placeholder="menu" class="form_input"/></td>
+                        </tr>
+                        <tr>
+                            <td>활동 지역</td> <td><input type="text" placeholder="region" class="form_input"/></td >
+                        </tr>
+                        <tr>
+                            <td>영업 시간</td> <td><input type="text" placeholder="region" class="form_input"/></td >
+                        </tr>
+                        <tr>
+                            <td>TEL</td> <td><input type="text" placeholder="TEL" class="form_input"/></td >
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <caption>이번 주 장사 계획</caption>
+                    <thead>
+                        <tr>
+                            <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th> <th>토</th> <th>일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Plan" class="form_input"/>
+                            </td>
+                    </tbody>
+                </table>
+                <div>
+                    <button type="button" class="form_submit_button" onclick="alert('등록성공!')">Submit</button>
+                </div>
+            </div> 
+        </main>
+
+        <footer>
+            상호명 : 푸드포인트 | 대표 : 김재홍<br>
+            TEL : 01032748859<br>
+            Copyright ⓒ 2023 Food Point All rights reserved.
+        </footer>
+    </body>
+</html>

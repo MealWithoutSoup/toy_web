@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    background: #D6F151;
+    min-height: 700px;
+}
+
+.tableheader{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 1200px;
+}
+
+input {
+    display: inline;
+    border: 1px solid #070707;
+    font-size: 14px;
+}
+
+table {
+    text-align: center;
+    min-width: 1200px;
+    border : 1px solid blue;
+}
+
+td, th {
+    border : 1px dotted green;
+}
+
+th {
+    background : #ccffcc;
+    height : 30px;
+    width : auto;
+}
+
+tbody tr:nth-child(even) { /* 짝수 <tr>에 적용*/
+    background : #ccffcc;
+}
+
+tbody tr:hover {
+    background : pink;
+}

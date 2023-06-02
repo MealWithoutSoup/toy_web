@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #D6F151;
+    min-height: 700px;
+}
+
+.logo_container{
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text_description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    width: 400px;
+    height: 285px;
+    background-color: #ccffcc;
+}
+
+.img_container{
+    text-align: center;
+    width: 400px;
+    height: 280px;
+}
